@@ -47,7 +47,7 @@
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
-      "value": "<b>Hello {first}\n\nAnda harus Subcribe Channel dan Join Grup Auqri untuk menggunakan BOT\n\nSilakan Subcribe dan Join terlebih dahulu.</b>"
+      "value": "<b>Hello {first}\n\nAnda harus Subcribe Channel dan Join Grup untuk menggunakan BOT\n\nSilakan Subcribe dan Join terlebih dahulu.</b>"
     },
     "CHANNEL": {
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
