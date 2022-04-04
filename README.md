@@ -28,7 +28,7 @@ Semoga saja bisa memberikan manfaat untuk Anda semua.
 #### Deploy in your VPS
 ````bash
 git clone https://github.com/auqri/filesharing-nsubs
-cd FileSharing-Restu
+cd filesharing-nsubs
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
 python3 main.py
