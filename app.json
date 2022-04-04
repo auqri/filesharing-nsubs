@@ -1,13 +1,9 @@
 {
   "name": "FileSharing RestuAP",
   "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
-  "keywords": [
-    "telegram",
-    "file",
-    "sharing"
-  ],
-  "repository": "https://github.com/restuap17/FileSharing-Restu",
-  "logo": "https://telegra.ph/file/17577b5183ef34527a7e0.jpg",
+  "keywords": ["telegram", "file", "sharing"],
+  "repository": "https://github.com/auqri/filesharing-nsubs",
+  "logo": "https://telegra.ph/file/3207db3c3db15a738ab95.png",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Isi Bot token, Dapatkan dari t.me/BotFather",
@@ -15,11 +11,11 @@
     },
     "OWNER": {
       "description": "Isi Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
-      "value": "ReszXD"
+      "value": "uaqri"
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "1721561586"
+      "value": "1590520604"
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
@@ -35,38 +31,38 @@
     },
     "CHANNEL_ID": {
       "description": "Masukan ID Channel Untuk [Channel Database]",
-      "value": "-100"
+      "value": "-100xxxx"
     },
     "FORCE_SUB_CHANNEL": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
-      "value": "-100"
+      "value": "-100xxxx"
     },
     "FORCE_SUB_GROUP": {
       "description": "Masukan ID dari Group Untuk Wajib Subscribenya",
-      "value": "-100"
+      "value": "-100xxxx"
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
-      "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
+      "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya menggunakan link khusus.</b>"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
-      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
+      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel & Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
     },
-    "CHANNEL":{
+    "CHANNEL": {
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "BotPushch",
+      "value": "auqribot",
       "required": false
     },
-    "GROUP":{
+    "GROUP": {
       "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "InfoBotShr",
+      "value": "auqri",
       "required": false
     }
   },
   "addons": [
     {
-    "plan": "heroku-postgresql",
+      "plan": "heroku-postgresql",
       "options": {
         "version": "12"
       }
