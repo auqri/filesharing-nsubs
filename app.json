@@ -1,6 +1,6 @@
 {
-  "name": "FileSharing RestuAP",
-  "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
+  "name": "File n Subs Auqri",
+  "description": "BOT Multi Force Subs n File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": ["telegram", "file", "sharing"],
   "repository": "https://github.com/auqri/filesharing-nsubs",
   "logo": "https://telegra.ph/file/3207db3c3db15a738ab95.png",
@@ -43,20 +43,20 @@
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
-      "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya menggunakan link khusus.</b>"
+      "value": "<b>Hai {first}\n\nSaya dapat menyimpan file/berkas di Channel Tertentu dan pengguna lain dapat mengaksesnya menggunakan link khusus.</b>"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
-      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel & Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
+      "value": "<b>Hello {first}\n\nAnda harus Subcribe Channel dan Join Grup Auqri untuk menggunakan BOT\n\nSilakan Subcribe dan Join terlebih dahulu.</b>"
     },
     "CHANNEL": {
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "auqribot",
+      "value": "auqri",
       "required": false
     },
     "GROUP": {
       "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "auqri",
+      "value": "auqriweb",
       "required": false
     }
   },
